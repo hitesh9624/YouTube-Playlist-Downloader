@@ -1,0 +1,10 @@
+{
+    "playlist_url": "https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID (The URL of the YouTube playlist that you want to download.)",
+    "output": "downloads (The directory where the downloaded videos will be saved.)",
+    "parallel": "2(int) (The number of parallel downloads.) ",
+    "start": "1(int) (The index of the first video to download.)",
+    "end": "0(int) (The index of the last video to download.)",
+    "output_format": "mp4 (The format of the downloaded videos",
+    "mode": "both (The mode of the downloader (audio, video, or both).)",
+    "retries": "3(int) (The number of retries in case of download failure.)"
+}
